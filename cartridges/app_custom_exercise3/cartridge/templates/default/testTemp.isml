@@ -1,0 +1,6 @@
+<iscomment> <p>hi</p> </iscomment>
+<isdecorate template="custom/layout/page">
+    <div class="col">
+        <button type="button">Test Button</button>
+    </div>
+</isdecorate>
