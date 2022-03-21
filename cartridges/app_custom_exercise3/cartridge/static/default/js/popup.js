@@ -34,14 +34,14 @@ function chg()
     console.log(week);
     var url = 'https://zydf-004.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.store/Sites-nitish-Site/en_US/HelloV3-Start?store='+week;
                     $.ajax({
-                        type: 'GET',
+                        method: 'GET',
                     url: url,
-                    success: function(data, xhr, status) {
-                       
+                    success: function (data, xhr, status) {
+
                         console.log('ajax called');
                         console.log('ajax called2');
                     },
-                    error: function(xhr, textStatus, error) {
+                    error: function (xhr, textStatus, error) {
                         console.log('2 ' + JSON.stringify(xhr));
                         console.log('3 ' + textStatus);
                         console.log('4 ' + error);

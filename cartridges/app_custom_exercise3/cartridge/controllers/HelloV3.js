@@ -8,7 +8,9 @@ server.get('Start', function (req, res, next) {
 	 and declare the value of param1 which you saw
 	 in hello.isml.  param1 should equal "Hello from ISML"
 	*/
-	res.render('hello', {param1:"Hello from ISML"});
+	res.print('success');
+	
+	// res.render('hello', {param1:"Hello from ISML"});
 	next();
 });
 

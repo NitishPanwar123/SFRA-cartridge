@@ -1,7 +1,7 @@
 <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
-        assets.addJs('/js/popup.js');
-        assets.addCss('/css/popup.css');
+        assets.addJs('/js/AssTwo.js');
+        assets.addCss('/css/AssTwo.scss');
     </isscript>
 
 <div class="row cart-and-ipay">
@@ -9,7 +9,7 @@
         <input type="hidden" class="add-to-cart-url" value="${pdict.addToCartUrl}">
         <button class="add-to-cart btn btn-primary" data-toggle="modal" data-target="#chooseBonusProductModal"
             data-pid="${product.id}" ${!product.readyToOrder || !product.available ? "disabled" : ""}
-            onclick="handleChange()" id="myBtn">
+             id="myBtn">
             <i class="fa fa-shopping-bag"></i>
             ${Resource.msg('button.addtocart', 'common', null)}
         </button>
@@ -20,7 +20,7 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <label for="weeks">Choose Week:</label>
-                <select name="weeks" id="weeks" onchange="weekHandler()">
+                <select name="weeks" id="weeks">
                     <option value="2Weeks">2Weeks</option>
                     <option value="3Weeks">3Weeks</option>
                     <option value="4Weeks">4Weeks</option>
@@ -30,7 +30,7 @@
             
 
         </div>
-        <button onclick="chg()">hit</button>
+        <button id='abc'>hit</button>
 
         <isinclude template="product/components/addToCartButtonExtension" />
     </div>
