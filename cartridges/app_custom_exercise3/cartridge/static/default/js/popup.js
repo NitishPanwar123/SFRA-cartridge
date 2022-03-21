@@ -31,6 +31,7 @@ function weekHandler()
 
 function chg()
 {
+    console.log(week);
     var url = 'https://zydf-004.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.store/Sites-nitish-Site/en_US/HelloV3-Start?store='+week;
                     $.ajax({
                         type: 'GET',
