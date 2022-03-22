@@ -30,7 +30,7 @@
             
 
         </div>
-        <button id='abc'>hit</button>
+        <iscomment> <button id='abc'>hit</button> </iscomment>
 
         <isinclude template="product/components/addToCartButtonExtension" />
     </div>

@@ -1,16 +1,16 @@
 'use strict';
 
 var server = require('server');
+var Cookie = require('dw/web/Cookie');
+var OrderMgr = require('dw/order/OrderMgr');
+var BasketMgr = require('dw/order/BasketMgr');
 
-server.get('Start', function (req, res, next) {
-
-	/*within the function, render the hello.isml template,
-	 and declare the value of param1 which you saw
-	 in hello.isml.  param1 should equal "Hello from ISML"
-	*/
-	res.print('success');
-	
-	// res.render('hello', {param1:"Hello from ISML"});
+server.get('Show', function (req, res, next)
+ {
+	var store = req.querystring.store;
+	res.print(store);
+	var cookie = new Cookie("nitish", store);
+	response.addHttpCookie(cookie);
 	next();
 });
 
