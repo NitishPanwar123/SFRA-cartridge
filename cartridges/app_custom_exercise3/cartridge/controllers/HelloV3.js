@@ -10,7 +10,10 @@ server.get('Show', function (req, res, next)
 	var store = req.querystring.store;
 	res.print(store);
 	var cookie = new Cookie("nitish", store);
+	
+	
 	response.addHttpCookie(cookie);
+	//var cookie=request.getHttpCookies()[0].value;
 	next();
 });
 
