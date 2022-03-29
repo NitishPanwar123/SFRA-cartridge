@@ -1,0 +1,92 @@
+<isscript>
+     var assets = require('*/cartridge/scripts/assets.js');
+     assets.addCss('/css/LowCarbBars.css');
+     assets.addJs('/js/LowCarbBars.js');
+</isscript>
+<head>
+<style>
+
+/* .item1{
+    border:2px solid black;
+    text-align: center;
+    max-width: 50%;
+
+
+}
+.item2{
+    border:2px solid black;
+    text-align: center;
+    max-width: 50%;
+}
+
+.image{
+    height: 400px;
+    width: 767px;
+}
+
+.box1{
+    padding-top: 50px;
+    background-color: #f8f8f8;
+    margin-left: 0px;
+    position: relative;
+    left: 0px;
+
+}
+.box2{
+    background-color: #f8f8f8;
+    padding-left: 0rem;
+    position: relative;
+    float: left;
+
+}
+
+.heading{
+
+    padding-left: 150px;
+    padding-top: 20px;
+    font-style: Jeko ExtraBold;
+    font-size: 48px;
+    color: black;
+}
+
+.content{
+    padding-left: 150px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.shopNowbtn{
+    margin-left: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+} */
+</style>
+</head>
+<body>
+   <div class="container-fluid">
+        <div class="row boxContainer">
+          <div class="col-md-6 box1">
+              <h1 class="heading"> ${pdict.Heading}</h1>
+              <p class="content">
+                  ${pdict.Content}
+              </p>
+              <p class="getLink" data-link="${pdict.ButtonLink}"></p>
+              <button type="button" class="btn btn-danger shopNowbtn">Shop Now</button>
+          </div>
+
+          <div class="col-md-6 box2">
+            <img class="image" src="${pdict.Image.file.absURL}" alt="Not found">
+            </div>
+          </div>
+        </div>
+</body>

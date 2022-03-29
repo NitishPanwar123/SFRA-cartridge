@@ -13,7 +13,6 @@
             <p>
                 <isprint value="${pdict.BannerSubHeading}" encoding="off" />
             </p>
-            
         </div>
     </div>
     <div>

@@ -1,0 +1,68 @@
+body{
+    background-color:red;
+}
+.item1{
+    border:2px solid black;
+    text-align: center;
+    max-width: 50%;
+}
+.storepage {
+    .container{
+            max-width: 100%;
+    }
+}
+.item2{
+    border:2px solid black;
+    text-align: center;
+    max-width: 50%;
+}
+
+.image{
+    height: 400px;
+    width: 767px;
+}
+
+.box1{
+    padding-top: 50px;
+    background-color: #f8f8f8;
+    // margin-left: 0px;
+    position: relative;
+    left: 0px;
+
+}
+.box2{
+    background-color: #ebdada;
+    padding-left: 0rem;
+    position: relative;
+    float: left;
+
+}
+
+.heading{
+
+    padding-left: 98px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: black;
+}
+
+.content{
+    padding-right: 244px;
+    padding-left: 98px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopNowbtn{
+    margin-left: 98px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ff525c;
+}
+
+.shopNowbtn:hover{
+    color:#ffb7c4;
+    background-color: #ff525c;
+}

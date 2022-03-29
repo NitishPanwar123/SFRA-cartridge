@@ -1,0 +1,43 @@
+{
+    "name": "LowCarbBars",
+    "description": "Low Carb Bars Component",
+    "group": "Custom",
+    "attribute_definition_groups": [
+      {
+        "id": "CarbBarsComponentAttributes",
+        "name": "Carb Bars Configuration",
+        "description": "This component for Carb Bars",
+        "attribute_definitions": [
+          {
+            "id": "Heading",
+            "name": "Heading",
+            "description": "Heading",
+            "type": "string",
+            "required": true
+          },
+          {
+            "id": "Content",
+            "name": "Content",
+            "description": "Low Carb Bars Content",
+            "type": "string",
+            "required": true
+          },
+          {
+            "id": "ButtonLink",
+            "name": "Button Link",
+            "description": "Link for the button",
+            "type": "string",
+            "required": true
+          },
+          {
+            "id": "Image",
+            "name": "Image",
+            "description": "Image for component",
+            "type": "image",
+            "required": true
+          }
+        ]
+      }
+    ],
+    "region_definitions": []
+  }
