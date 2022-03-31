@@ -1,0 +1,309 @@
+{
+    "name": "Slider",
+    "description": "Slider Component",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "SliderAttribute",
+            "name": "Slider Configuration",
+            "description": "This component for Slider",
+            "attribute_definitions": [
+                {
+                    "id": "Image1",
+                    "name": "Image1",
+                    "description": "Image1 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed1",
+                    "name": "Heading1 in Red color",
+                    "description": "Heading1",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack1",
+                    "name": "Heading1 in Black color",
+                    "description": "Heading1",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour1",
+                    "name": "Flavour1 for product",
+                    "description": "flavour1 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description1",
+                    "name": "Description1 for Product",
+                    "description": "Description1",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName1",
+                    "name": "Button Name 1",
+                    "description": "Button Name 1",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink1",
+                    "name": "Button Link 1",
+                    "description": "Link for the button 1",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Image2",
+                    "name": "Image2",
+                    "description": "Image2 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed2",
+                    "name": "Heading2 in Red color",
+                    "description": "Heading2",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack2",
+                    "name": "Heading2 in Black color",
+                    "description": "Heading2",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour2",
+                    "name": "Flavour2 for product",
+                    "description": "flavour2 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description2",
+                    "name": "Description2 for Product",
+                    "description": "Description2",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName2",
+                    "name": "Button Name 2",
+                    "description": "Button Name 2",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink2",
+                    "name": "Button Link 2",
+                    "description": "Link for the button 2",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Image3",
+                    "name": "Image3",
+                    "description": "Image3 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed3",
+                    "name": "Heading3 in Red color",
+                    "description": "Heading3",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack3",
+                    "name": "Heading3 in Black color",
+                    "description": "Heading3",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour3",
+                    "name": "Flavour3 for product",
+                    "description": "flavour3 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description3",
+                    "name": "Description3 for Product",
+                    "description": "Description3",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName3",
+                    "name": "Button Name 3",
+                    "description": "Button Name 3",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink3",
+                    "name": "Button Link 3",
+                    "description": "Link for the button 3",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Image4",
+                    "name": "Image4",
+                    "description": "Image4 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed4",
+                    "name": "Heading4 in Red color",
+                    "description": "Heading4",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack4",
+                    "name": "Heading4 in Black color",
+                    "description": "Heading4",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour4",
+                    "name": "Flavour4 for product",
+                    "description": "flavour4 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description4",
+                    "name": "Description4 for Product",
+                    "description": "Description4",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName4",
+                    "name": "Button Name 4",
+                    "description": "Button Name 4",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink4",
+                    "name": "Button Link 4",
+                    "description": "Link for the button 4",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Image5",
+                    "name": "Image5",
+                    "description": "Image5 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed5",
+                    "name": "Heading5 in Red color",
+                    "description": "Heading5",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack5",
+                    "name": "Heading5 in Black color",
+                    "description": "Heading5",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour5",
+                    "name": "Flavour5 for product",
+                    "description": "flavour5 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description5",
+                    "name": "Description5 for Product",
+                    "description": "Description5",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName5",
+                    "name": "Button Name 5",
+                    "description": "Button Name 5",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink5",
+                    "name": "Button Link 5",
+                    "description": "Link for the button 5",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Image6",
+                    "name": "Image6",
+                    "description": "Image6 for component",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "HeadingRed6",
+                    "name": "Heading6 in Red color",
+                    "description": "Heading6",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "HeadingBlack6",
+                    "name": "Heading6 in Black color",
+                    "description": "Heading6",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "flavour6",
+                    "name": "Flavour6 for product",
+                    "description": "flavour6 of Product",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Description6",
+                    "name": "Description6 for Product",
+                    "description": "Description6",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonName6",
+                    "name": "Button Name 6",
+                    "description": "Button Name 6",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ButtonLink6",
+                    "name": "Button Link 6",
+                    "description": "Link for the button 6",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

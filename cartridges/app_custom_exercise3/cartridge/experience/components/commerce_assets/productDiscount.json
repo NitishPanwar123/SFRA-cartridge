@@ -1,0 +1,78 @@
+{
+    "name": "Product Discount Component",
+    "description": "Product Discount details",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "productDiscountAttributes",
+            "name": "Product Discount Configurations",
+            "description": "Product Discount Component",
+            "attribute_definitions": [
+                {
+                    "id": "DiscountText",
+                    "name": "discount text",
+                    "description": "discount Text",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "Heading",
+                    "name": "heading",
+                    "description": "Heading",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Image",
+                    "name": "Image",
+                    "description": "Image",
+                    "type": "image",
+                    "required": true
+                },
+                {
+                    "id": "linkName",
+                    "name": "Link Name",
+                    "description": "Name of Link",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Price",
+                    "name": "product price",
+                    "description": "Price of Product",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "ButtonName",
+                    "name": "Name of Button",
+                    "description": "Name of the button",
+                    "type":"string",
+                    "required": true
+                },
+                {
+                    "id": "ButtonLink",
+                    "name": "Link for the button",
+                    "description": "Link for the button",
+                    "type":"string",
+                    "required": true
+                },
+                {
+                    "id": "ModalProductPoints",
+                    "name": "Points for the product",
+                    "description": "Points for product",
+                    "type":"string",
+                    "required": true
+                },
+                {
+                    "id": "ProductInfo",
+                    "name": "Information for Product",
+                    "description": "Information for Product",
+                    "type":"string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

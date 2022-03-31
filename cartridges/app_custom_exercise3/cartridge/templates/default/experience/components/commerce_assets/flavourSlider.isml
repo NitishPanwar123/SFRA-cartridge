@@ -1,0 +1,24 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/flavourSlider.css');
+    assets.addJs('/js/flavourSlider.js')
+</isscript>
+
+<div class="container-flavour-slide">
+    <div class="flavour-slide-image-container">
+        <img src="${pdict.image.file.absURL}" alt="flavour image" />
+    </div>
+    <div class="flavour-slide-details-container">
+        <p class="flavour-slide-layout-heading"></p>
+        <div class="flavour-slide-colors-holder" data-color="${pdict.color}">
+            <iscomment>
+                <div data-color="${pdict.color}" class="flavour-slide-color"></div>
+            </iscomment>
+        </div>
+        <div class="flavour-slide-details-sub-container">
+            <p class="flavour-slide-heading">${pdict.heading}</p>
+            <p class="flavour-slide-text">${pdict.para}</p>
+            <a class="flavour-slide-link" href="${pdict.link}">${pdict.btnText}</a>
+        </div>
+    </div>
+</div>

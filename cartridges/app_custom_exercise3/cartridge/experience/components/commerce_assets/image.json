@@ -1,0 +1,22 @@
+{
+    "name": "Image",
+    "description": "Image",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "Image",
+            "name": "Image",
+            "description": "Image",
+            "attribute_definitions": [
+                {
+                    "id": "Image",
+                    "name": "Image",
+                    "description": "Image for Component",
+                    "type": "image",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Paragraph Text 2",
+    "description": "Paragraph Text 2",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "Paragraph2TextAttributes",
+            "name": "Paragraph2TextConfigurations",
+            "description": "Paragraph Text 2",
+            "attribute_definitions": [
+                {
+                    "id": "paragraph",
+                    "name": "Paragraph Text",
+                    "description": "Paragraph Text",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

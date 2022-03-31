@@ -1,0 +1,29 @@
+{
+    "name": "Second",
+    "description": "Second Component of Assignment",
+    "group": "Custom",
+    "attribute_definition_groups": [
+      {
+        "id": "Second",
+        "name": "Second Component Configuration",
+        "description": "This is second component of assignment",
+        "attribute_definitions": [
+          {
+            "id": "Image",
+            "name": "Image",
+            "description": "Image for component",
+            "type": "image",
+            "required": false
+          },
+          {
+            "id": "Content",
+            "name": "Content",
+            "description": "Content for component",
+            "type": "string",
+            "required": true
+          }
+        ]
+      }
+    ],
+    "region_definitions": []
+  }

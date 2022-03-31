@@ -1,0 +1,29 @@
+<isscript>
+     var assets = require('*/cartridge/scripts/assets.js');
+     assets.addCss('/css/Nutritionist.css');
+</isscript>
+<div class="head-container">
+
+  <div class="grey-bar">
+  </div>
+  <div class="container--main">
+
+    <div class="container--1">
+      <div>
+        <img
+          src="https://www.mymusclechef.com/on/demandware.static/-/Library-Sites-mmc-shared-library/default/dw66d037fa/landing-pages/Muffin-Bars/NEW-D.png"
+          alt="">
+        <br><br>
+        <p class="description-product">
+          <isprint value="${pdict.Advice}" encoding="off" />
+        </p>
+        <p class="description-product" style="font-weight:600;">
+          <isprint value="${pdict.Name}" encoding="off" />
+        </p>
+      </div>
+    </div>
+    <div class="container--2">
+      <img src="<isprint value=" ${pdict.Image.file.absURL}" encoding="off" />" alt="">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+{
+  "name": "Custom Slider Item",
+  "description": "Component of custom slider item.",
+  "group": "Custom",
+  "attribute_definition_groups": [
+    {
+      "id": "customSliderItemComponent",
+      "name": "Custom Slider Item Details",
+      "description": "This component has the details about the item.",
+      "attribute_definitions": [
+        {
+          "id": "image",
+          "name": "Image",
+          "description": "Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "id": "color",
+          "name": "Color",
+          "description": "Enter the hex value of the color.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "heading",
+          "name": "Heading",
+          "description": "Write the heading.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "para",
+          "name": "Paragraph",
+          "description": "Write the paragraph.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "link",
+          "name": "Link",
+          "description": "Enter the link of the button.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "btnText",
+          "name": "Button Text",
+          "description": "Write the text of the button.",
+          "type": "string",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

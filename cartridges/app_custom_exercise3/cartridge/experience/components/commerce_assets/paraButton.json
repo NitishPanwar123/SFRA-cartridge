@@ -1,0 +1,36 @@
+{
+    "name": "paraButton",
+    "description": "paraButton",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "parabuttonComponent",
+            "name": "paraButton Component",
+            "description": "Paragraph and Button Component",
+            "attribute_definitions": [
+                {
+                    "id": "Paragraph",
+                    "name": "Paragraph",
+                    "description": "Paragraph for Component",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "ButtonName",
+                    "name": "Button Name",
+                    "description": "Button Name for Component",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "ButtonLink",
+                    "name": "Button Link",
+                    "description": "Button Link for Component",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

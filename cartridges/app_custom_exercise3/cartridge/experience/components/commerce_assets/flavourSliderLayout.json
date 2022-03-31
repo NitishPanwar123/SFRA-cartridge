@@ -1,0 +1,41 @@
+{
+  "name": "Custom Slide Layout",
+  "description": "Layout of custom slider.",
+  "group": "Custom",
+  "attribute_definition_groups": [
+    {
+      "id": "flavourSliderComponent",
+      "name": "Custom Slider Layout",
+      "description": "This component has the details about the layout.",
+      "attribute_definitions": [
+        {
+          "id": "heading",
+          "name": "Heading",
+          "description": "Write the heading of the layout.",
+          "type": "string",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "region_definitions": [
+    {
+      "id": "slides",
+      "name": "Slides",
+      "component_type_exclusions": [
+        { "type_id": "commerce_layouts.carousel" },
+        { "type_id": "commerce_layouts.mobileGrid1r1c" },
+        { "type_id": "commerce_layouts.mobileGrid2r1c" },
+        { "type_id": "commerce_layouts.mobileGrid2r2c" },
+        { "type_id": "commerce_layouts.mobileGrid2r3c" },
+        { "type_id": "commerce_layouts.mobileGrid3r1c" },
+        { "type_id": "commerce_layouts.mobileGrid3r2c" },
+        { "type_id": "commerce_layouts.popularCategories" },
+        { "type_id": "einstein.einsteinCarousel" },
+        { "type_id": "einstein.einsteinCarouselCategory" },
+        { "type_id": "einstein.einsteinCarouselProduct" },
+        { "type_id": "commerce_layouts.mobileGridLookBook" }
+      ]
+    }
+  ]
+}

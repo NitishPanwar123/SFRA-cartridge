@@ -1,0 +1,36 @@
+{
+    "name": "Nutritionist",
+    "description": "Nutritionist Component",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "NutritionistAttributes",
+            "name": "Nutritionist Configurations",
+            "description": "Nutritionist Component",
+            "attribute_definitions": [
+                {
+                    "id": "Advice",
+                    "name": "Write Advice",
+                    "description": "Write Your Advice here",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Name",
+                    "name": "Name",
+                    "description": "Write Name",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Image",
+                    "name": "Image",
+                    "description": "Image",
+                    "type": "image",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

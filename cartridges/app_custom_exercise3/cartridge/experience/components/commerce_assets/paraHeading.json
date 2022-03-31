@@ -1,0 +1,22 @@
+{
+    "name": "Paragraph Heading",
+    "description": "Paragraph Heading",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "ParagraphHeadingAttributes",
+            "name": "ParagraphHeadingConfigurations",
+            "description": "Paragraph Heading",
+            "attribute_definitions": [
+                {
+                    "id": "paragraph_heading_ID",
+                    "name": "Paragraph Heading",
+                    "description": "Paragraph Heading",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

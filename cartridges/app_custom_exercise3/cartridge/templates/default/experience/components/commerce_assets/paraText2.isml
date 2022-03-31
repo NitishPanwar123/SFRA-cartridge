@@ -1,0 +1,3 @@
+<div style="text-align:center; font-size: 1rem;margin-top: 76px;margin-bottom: 6px;">
+    <p style="margin: -44px 245px 0px 245px;"><isprint value="${pdict.paragraph}" encoding="off" /></p>
+</div>

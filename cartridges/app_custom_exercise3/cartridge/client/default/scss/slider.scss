@@ -1,0 +1,95 @@
+.carousel{
+
+   height: auto;
+   width: auto;
+}
+
+
+.img{
+    height: 300px;
+    width: 500px;
+    margin-left: 195px;
+    position: relative!important;
+    border-radius: 1rem;
+    float: left;
+}
+
+.dots{
+    height: 23.088666915893555px;
+    width: 23.088666915893555px;
+    /* margin: 0 2px; */
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    cursor: pointer!important;
+}
+
+.btn1{
+    background-color: #7e4800;
+    margin-left: 100px;
+    margin-top: 10px;
+
+   
+}
+.btn2{
+    background-color: #cf9342;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.btn3{
+    background-color: #EA75AC;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.btn4{
+    background-color: #F3DA1D;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.btn5{
+    background-color: #895CCD;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.btn6{
+    background-color: #0dba75;
+    margin-left: 1rem;
+    margin-top: 10px;
+
+}
+
+.content{
+    display: inline;
+    margin-left: 100px;
+}
+
+.dots:active{
+    border: 1px solid black;
+}
+
+.matter{
+    display: inline;
+    margin-left: 100px;
+    color: #181818;
+    font-size: 32px;
+}
+
+.paragraph{
+    margin-left: 797px;
+    margin-right: 304px;
+    color: #181818;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 2.5rem;
+    height: 142px;
+}
+
+.shopnowbtn{
+    margin-left: 87px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+   
+}

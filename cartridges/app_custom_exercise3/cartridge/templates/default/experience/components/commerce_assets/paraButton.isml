@@ -1,0 +1,20 @@
+
+<head>
+    <style>
+        .region{
+                background-color: #f8f8f8;
+        }
+    </style>
+</head>
+
+
+<div>
+    <h2 style="margin-top: 190px;
+    margin-left: 98px;
+    text-align: left;
+    padding-bottom: 2rem;
+    font-size: 32px;
+    padding-right: 367px;
+    font-weight: bolder;">${pdict.Paragraph}</h2>
+    <a href="${pdict.ButtonLink}"><button type="button" class="btn btn-danger" style="margin-left: 98px;">${pdict.ButtonName}</button></a>
+</div>

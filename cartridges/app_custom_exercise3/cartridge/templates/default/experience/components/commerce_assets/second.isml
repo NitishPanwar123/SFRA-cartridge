@@ -1,0 +1,11 @@
+<isscript>
+     var assets = require('*/cartridge/scripts/assets.js');
+     assets.addCss('/css/second.css');
+</isscript>
+
+<body>
+     <div class="flex">
+     <p>Hi</p>
+        <img src="${pdict.Image.file.absURL}" alt="Not Found" class="imgs">
+    </div>
+</body>
