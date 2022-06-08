@@ -7,7 +7,3 @@ module.exports = function (object, apiProduct) {
         value: invRec==null ? 0 :parseInt(invRec.ATS,10)
     });
 };
-
-
-
-

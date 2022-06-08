@@ -1,0 +1,43 @@
+{
+    "name": "FAQAssignment2",
+    "description": "FAQ Assignment 2",
+    "group": "Custom",
+    "attribute_definition_groups": [
+        {
+            "id": "FAQComponent2",
+            "name": "FAQ Assignment Component 2",
+            "description": "FAQ Component 2",
+            "attribute_definitions": [
+                {
+                    "id": "QuestionNumber",
+                    "name": "Question Number",
+                    "description": "Question Number for Component",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Question",
+                    "name": "Question",
+                    "description": "Question for Component",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Answer",
+                    "name": "Answer",
+                    "description": "Answer for Component",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "Id",
+                    "name": "Id",
+                    "description": "Id for Component",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

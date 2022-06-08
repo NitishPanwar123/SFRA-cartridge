@@ -1,0 +1,35 @@
+<iscomment>add decorator here </iscomment>
+<isdecorate template="common/layout/page">
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addJs('/js/jquery.js');
+    assets.addJs('/js/mailWithAttachment.js');
+    assets.addCss('/css/mailWithAttachment.css');
+</isscript>
+
+<div class="jumbotron">
+    <h1>Send Mail with attachment</h1>
+</div>
+<div class="row">
+    <div class="col-sm-12 bg-primary">
+    </div>
+</div>
+* Mail will be send to ${pdict.mail}
+<form id="mailForm" enctype="multipart/form-data">
+<div class="input-wrapper">
+    <div class="label">Mail Body</div>
+    <textarea class="mail-body" name="mailBody"></textarea>
+</div>
+<div class="input-wrapper">
+    <div class="label">Mail Attachment</div>
+    <input type="file" class="mail-attachment" name="mailAttachment">
+    <input type="hidden" class="base64" >
+</div>
+
+<div class="input-wrapper">
+    <div class="button">Send Mail</div>
+</div>
+</form>
+
+<iscomment>close decorator here</iscomment>
+</isdecorate>

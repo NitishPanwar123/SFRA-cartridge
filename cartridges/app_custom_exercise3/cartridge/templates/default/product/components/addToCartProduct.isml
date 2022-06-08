@@ -7,12 +7,14 @@
 <div class="row cart-and-ipay">
     <div class="col-sm-12">
         <input type="hidden" class="add-to-cart-url" value="${pdict.addToCartUrl}">
-        <button class="add-to-cart btn btn-primary" data-toggle="modal" data-target="#chooseBonusProductModal"
+        <button class=" btn btn-primary" data-toggle="modal" data-target="#chooseBonusProductModal"
             data-pid="${product.id}" ${!product.readyToOrder || !product.available ? "disabled" : ""}
              id="myBtn">
             <i class="fa fa-shopping-bag"></i>
             ${Resource.msg('button.addtocart', 'common', null)}
         </button>
+        </div>
+        
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -25,13 +27,24 @@
                     <option value="3Weeks">3Weeks</option>
                     <option value="4Weeks">4Weeks</option>
                 </select>
-                <button id="close">Submit</button>
-            </div>
-            
+
+
+                <div class="row cart-and-ipay">
+    <div class="col-sm-12">
+        <input type="hidden" class="add-to-cart-url" value="${pdict.addToCartUrl}">
+        <button class="add-to-cart btn btn-primary" data-toggle="modal" data-target="#chooseBonusProductModal"
+            data-pid="${product.id}" ${!product.readyToOrder || !product.available ? "disabled" : ""}
+             id="close">
+            <i class="fa fa-shopping-bag"></i>
+            SUBMIT
+        </button>
+     </div>
+
 
         </div>
         <iscomment> <button id='abc'>hit</button> </iscomment>
 
         <isinclude template="product/components/addToCartButtonExtension" />
     </div>
+</div>
 </div>

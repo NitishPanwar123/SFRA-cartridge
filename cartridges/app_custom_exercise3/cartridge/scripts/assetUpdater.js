@@ -9,7 +9,12 @@ function execute(args){
 
     var folderPath = File.IMPEX + '/src/';
     var destFile = new File(folderPath + "NpProduct.txt");
-    OrderMgr.processOrders(orderCallBackFunction, "");
+
+    var today = new Date();
+     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+     var query = 'creationDate >=' + date;
+
+    OrderMgr.processOrders(orderCallBackFunction,query);
     var content = "";
     content += JSON.stringify(orders);
     // destFile.mkdirs()
@@ -25,13 +30,14 @@ var orders = {};
 function orderCallBackFunction(order) {
 
         var prevalue = Site.getCurrent().getCustomPreferenceValue("ProductIdNp");
-        if(order.productLineItems[0].productID==prevalue.toString())
+        if(order.productLineItems[0].productID==prevalue.toString()  )
         orders[count] = {
             orderNumber: order.orderNo,
             customerName: order.customerName,
             totalCost: order.totalGrossPrice,
             currencyCode: order.currencyCode,
             productId:order.productLineItems[0].productID,
+            creationDate: order.creationDate,
         };
         // orders[count] = order;
         count++;

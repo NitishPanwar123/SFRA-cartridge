@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?demandware-pipeline version="2.0"?>
+
+<pipeline group="Catalog">
+  <branch basename="_ANONYMOUS_BRANCH_1">
+    <segment>
+      <node>
+        <text-node>
+          <description>Renders the home page.</description>
+        </text-node>
+        <node-display x="1" y="1"/>
+      </node>
+    </segment>
+  </branch>
+  <branch basename="_ANONYMOUS_BRANCH_2">
+    <segment>
+      <node>
+        <text-node>
+          <description>Renders the whole menu to use as a remote include. It's cached.</description>
+        </text-node>
+        <node-display x="3" y="1"/>
+      </node>
+    </segment>
+  </branch>
+  <branch basename="Show">
+    <segment>
+      <node>
+        <start-node name="Show" secure="false"/>
+        <node-display x="1" y="2"/>
+      </node>
+      <simple-transition/>
+      <!-- <node>
+        <pipelet-node pipelet-name="UpdatePageMetaData" pipelet-set-identifier="bc_api">
+          <key-binding alias="null" key="DefaultKeywords"/>
+          <key-binding alias="&quot;&quot;" key="DefaultDescription"/>
+          <key-binding alias="null" key="Product"/>
+          <key-binding alias="null" key="Category"/>
+          <key-binding alias="null" key="Content"/>
+          <key-binding alias="dw.content.ContentMgr.getSiteLibrary().root" key="Folder"/>
+        </pipelet-node>
+        <node-display x="0" y="1"/>
+      </node> -->
+      <!-- <simple-transition/> -->
+      <node>
+        <interaction-node transaction-required="false">
+          <template buffered="true" dynamic="false" name="testTemp"/>
+        </interaction-node>
+        <node-display x="0" y="1"/>
+      </node>
+    </segment>
+  </branch>
+</pipeline>

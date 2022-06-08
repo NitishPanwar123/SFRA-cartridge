@@ -1,0 +1,20 @@
+<iscontent type="multipart/mixed; boundary=------------000001030701020908040900" compact="false">
+
+<isset name="fileContent" value="${pdict.data}" scope="page"/>
+--------------000001030701020908040900
+Content-Type: text/html; charset=UTF-8
+
+${pdict.body}
+<br/>
+<pre>
+${pdict.data}
+</pre>
+
+--------------000001030701020908040900
+Content-Type: text/csv;charset=ISO-8859-1
+Content-Description: ${pdict.name}
+Content-Disposition: attachment; filename="${pdict.name}"; size=${fileContent.length}; creation-date="${(new Date()).toISOString()}"; modification-date="${(new Date()).toISOString()}"
+Content-Transfer-Encoding: base64
+
+${fileContent}
+--------------000001030701020908040900--
