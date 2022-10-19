@@ -1,0 +1,65 @@
+{
+	"step-types":{
+	   "script-module-step":[
+		  {
+			 "@type-id":"custom.exportOrdersNp",
+			 "@supports-parallel-execution":"false",
+			 "@supports-site-context":"true",
+			 "@supports-organization-context":"false",
+			 "description":"Export all orders",
+			 "module":"app_custom_exercise3/cartridge/scripts/steps/exportOrders.js",
+			 "function":"execute",
+			 "transactional":"false",
+			 "timeout-in-seconds":"900",
+
+			 "status-codes":{
+				"status":[
+				   {
+					  "@code":"ERROR",
+					  "description":"An error occurs, please re-run the job"
+				   },
+				   {
+					  "@code":"FINISHED",
+					  "description":"Order Exported Successfully"
+				   }
+				]
+			 }
+		  },
+		  {
+			"@type-id":"custom.PayPalToken1",
+			"@supports-parallel-execution":"false",
+			"@supports-site-context":"true",
+			"@supports-organization-context":"false",
+			"description":"Export all orders",
+			"module":"app_custom_exercise3/cartridge/scripts/steps/paypalToken.js",
+			"function":"execute",
+			"transactional":"true",
+			"timeout-in-seconds":"900",
+			"parameters":
+			{
+			  "parameter":
+			  [
+				{
+				  "@name":"MyParameter1",
+				  "@type":"string",
+				  "@required":"true",
+				  "description":"A required boolean parameter."
+				}
+			  ]
+			},
+			"status-codes":{
+			   "status":[
+				  {
+					 "@code":"ERROR",
+					 "description":"An error occurs, please re-run the job"
+				  },
+				  {
+					 "@code":"FINISHED",
+					 "description":"Order Exported Successfully"
+				  }
+			   ]
+			}
+		 }
+	   ]
+	}
+ }

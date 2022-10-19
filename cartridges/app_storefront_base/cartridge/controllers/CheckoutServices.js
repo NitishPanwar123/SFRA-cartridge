@@ -548,6 +548,7 @@ server.post('PlaceOrder', server.middleware.https, function (req, res, next) {
     var validationHelpers = require('*/cartridge/scripts/helpers/basketValidationHelpers');
     var addressHelpers = require('*/cartridge/scripts/helpers/addressHelpers');
 
+;
     var currentBasket = BasketMgr.getCurrentBasket();
 
     if (!currentBasket) {
@@ -733,6 +734,7 @@ server.post('PlaceOrder', server.middleware.https, function (req, res, next) {
         orderToken: order.orderToken,
         continueUrl: URLUtils.url('Order-Confirm').toString()
     });
+    
 
     return next();
 });

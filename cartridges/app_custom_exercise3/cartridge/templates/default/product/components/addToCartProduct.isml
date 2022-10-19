@@ -14,7 +14,6 @@
             ${Resource.msg('button.addtocart', 'common', null)}
         </button>
         </div>
-        
 
         <!-- The Modal -->
         <div id="myModal" class="modal">

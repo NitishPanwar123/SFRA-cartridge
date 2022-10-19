@@ -202,7 +202,7 @@ server.post('SelectShippingMethod', server.middleware.https, function (req, res,
                 shippingAddress.setStateCode(address.stateCode || '');
                 shippingAddress.setCountryCode(address.countryCode || '');
                 shippingAddress.setPhone(address.phone || '');
-               
+
 
                 ShippingHelper.selectShippingMethod(shipment, shippingMethodID);
 

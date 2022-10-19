@@ -1,6 +1,6 @@
 var LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');
 
-var dadJokeAPIService = LocalServiceRegistry.createService('MagicCartirdgeserviceNp', { //id of service
+var dadJokeAPIService = LocalServiceRegistry.createService('MagicCartirdgeserviceNp', { // id of service
     createRequest: function (svc, params) {
         svc.setRequestMethod('GET');
         svc.addHeader('Accept', 'application/json');
@@ -20,4 +20,4 @@ var dadJokeAPIService = LocalServiceRegistry.createService('MagicCartirdgeservic
 
 module.exports = {
     dadJokeAPIService: dadJokeAPIService
-}
+};

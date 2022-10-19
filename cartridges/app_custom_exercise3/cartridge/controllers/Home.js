@@ -10,12 +10,10 @@ server.extend(module.superModule);
 //TODO insert functionality before the Show Route using server.prepend
 server.prepend('Show', function (req, res, next) {
 	//TODO in the code below, get ViewData from res
-	var viewData = res.getViewData(); 
-    //TODO set a viewData variable 'detailText' with value 'General Company Details, no promo at this time' in the code below 
-	viewData.detailText = 'General Company Details NP';
+	var viewData = res.getViewData();
+    //TODO set a viewData variable 'detailText' with value 'General Company Details, no promo at this time' in the code below
+	viewData.detailText = 'General Company Details np';
     res.setViewData(viewData);
-	
-	
 	next();
 });
 

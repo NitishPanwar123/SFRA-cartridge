@@ -10,7 +10,7 @@ var Logger = require('dw/system/Logger');
 
 
 server.get('Start', function (req, res, next) {
-    
+
 
 	newsletterForm.clear();
    // 7-2 render the newsletter signup form, passing in the form

@@ -613,6 +613,7 @@ function placeOrder(order, fraudDetectionStatus) {
     try {
         Transaction.begin();
         var placeOrderStatus = OrderMgr.placeOrder(order);
+        
         if (placeOrderStatus === Status.ERROR) {
             throw new Error();
         }

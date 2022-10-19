@@ -5,7 +5,13 @@ var OrderMgr = require("dw/order/OrderMgr");
 var Site = require("dw/system/Site");
 
 
+
 function execute(args){
+  
+	// var orderList= OrderMgr.queryOrders();
+	// var a=0;
+    
+
 
     var folderPath = File.IMPEX + '/src/';
     var destFile = new File(folderPath + "NpProduct.txt");
@@ -13,6 +19,8 @@ function execute(args){
     var today = new Date();
      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
      var query = 'creationDate >=' + date;
+
+    
 
     OrderMgr.processOrders(orderCallBackFunction,query);
     var content = "";
@@ -63,6 +71,12 @@ function writeFile(destFile, content) {
 function removeFile(filPath) {
     var file = new File(filPath);
     file.remove();
+}
+
+function exportorder(orders){
+    var order = orders;
+    var a =0;
+    var b=0;
 }
 
 

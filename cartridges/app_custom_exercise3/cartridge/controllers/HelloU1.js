@@ -9,6 +9,7 @@ server.get('Show', function (req, res, next) {
 	 in hello.isml.  param1 should equal "Hello from ISML"
 	*/
 	// res.render('helloU', {param1:"Hello from ISML"});
+	
 	res.render('testTemp');
 	// res.print('hdfugd');
 	next();
